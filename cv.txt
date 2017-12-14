@@ -1,0 +1,4 @@
+cv. 
+Skriv i readme vad man har gjort.
+Skriv i readme: inspiration
+Vad har jag använt, t.ex. flexbox, jquery..
