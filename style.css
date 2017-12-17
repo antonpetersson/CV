@@ -33,8 +33,19 @@ a:hover{
 }
 #secondPage{
     height: 100vh;
-    background-color: blue;
+    background-color: #0f0f0f;
     width: 100vw;
+    border-top: solid;
+    border-color: #f7e400;
+    color: #f7e400;
+}
+#thirdPage{
+    height: 100vh;
+    background-color: #0f0f0f;
+    width: 100vw;
+    border-top: solid;
+    border-color: #f7e400;
+    color: #f7e400;
 }
 #menu{
     padding: 15px;
