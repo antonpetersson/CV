@@ -10,57 +10,60 @@
     <link href="https://fonts.googleapis.com/css?family=Montserrat|Raleway:100,400" rel="stylesheet"> 
     <script src="https://w3schools.com/lib/w3.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://use.fontawesome.com/releases/v5.0.2/css/all.css" rel="stylesheet">
    
   </head>
   <body>
-  <div id="firstPage">      
+  <div id="firstPage">     
+
     <div id="header">   
       <div id="menu">
-        
-        <a id="home" href="#">HOME</a>
+        <a id="homeLink" href="#">HOME</a>
         <hr class="menuHR">
-        <a id="about"href="#">ABOUT</a>
+        <a id="aboutLink"href="#">ABOUT</a>
         <hr class="menuHR">
-        <a id="portfolio"href="#">PORTFOLIO</a>
-        
+        <a id="portfolioLink"href="#">PORTFOLIO</a>
       </div>
-    </div>  
-    <div class="infoBox boxL title">
-        <h1 style="font-weight:400">Hello, </h1>
-        <h1>I'm </h1>
-        <h1 style="color:#f7e400">Anton </h1> <br>
-        <h1>Petersson. <br> </h1>
-        <h1 style="color:#f7e400">Web </h1>  
-        <h1>developer <br>in </h1>
-        <h1 style="font-weight:400">the making.</h1>
     </div> 
 
+    <div class="infoBox boxL title">
+      <h1 style="font-weight:400">Hello, </h1>
+      <h1>I'm </h1>
+      <h1 style="color:#f7e400">Anton </h1> <br>
+      <h1>Petersson. <br> </h1>
+      <h1 style="color:#f7e400">Web </h1>  
+      <h1>developer <br>in </h1>
+      <h1 style="font-weight:400">the making.</h1>
+    </div> 
   </div>
-  <div id="secondPage">
-    <h1>About</h1>
-    
-    <div class="infoBox boxL box1About">
-      <p>I'm </p>
-      <p style="color:#f7e400">studying </p> 
-      <p>web development at </p>
-      <p style="font-weight:400">Medieinstitutet </p> 
-      <p>in </p>
-      <p style="color:#f7e400">Gothenburg, </p>
-      <p>specialising in </p>
-      <p style="font-weight:400">e-commerce.</p>
+  
+  <div id="aboutPage">
+    <h2>About</h2>
+
+    <div class="aboutContainer">
       
-    </div>
-    <div class="infoBox boxR box2About">
-      <p>So far we’ve covered </p>
-      <p style="color:#f7e400">HTML, CSS </p>
-      <p>and </p> 
-      <p style="color:#f7e400">JavaScript </p> 
-      <p>and we’ll also be covering </p>
-      <p style="color:#f7e400">PHP, Node.js, MySQL </p>
-      <p style="font-weight:400">and more.</p>
-    </div>
-    <div class="infoBox boxL box3About">
+      <div class="infoBox boxL box1About">
+        <p>I'm </p>
+        <p style="color:#f7e400">studying </p> 
+        <p>web development at </p>
+        <p style="font-weight:400">Medieinstitutet </p> 
+        <p>in </p>
+        <p style="color:#f7e400">Gothenburg, </p>
+        <p>specialising in </p>
+        <p style="font-weight:400">e-commerce.</p>
+      </div>
+      
+      <div class="infoBox boxR box2About">
+        <p>So far we’ve covered </p>
+        <p style="color:#f7e400">HTML, CSS </p>
+        <p>and </p> 
+        <p style="color:#f7e400">JavaScript </p> 
+        <p>and we’ll also be covering </p>
+        <p style="color:#f7e400">PHP, Node.js, MySQL </p>
+        <p style="font-weight:400">and more.</p>
+      </div>
+      
+      <div class="infoBox boxL box3About">
         <p>I had</p>
         <p style="color:#f7e400">7</p> 
         <p>years of</p>
@@ -71,14 +74,41 @@
         <p style="color:#f7e400">dream</p>
         <p> to become a</p>
         <p style="font-weight:400">developer.</p>
-            </div>
-  </div>
-  <div id="thirdPage">
-   <h1>Portolio</h1>
-          
+      </div>
+    </div>        
   </div>
 
-  
+  <div id="portfolioPage">
+   <h2>Portfolio</h2>
+   
+   <div class="portfolioContainer">
+      <div class="portfolioBox"><a href="https://muni-muni.se" target="_blank"><img class="portfolioImg" src="//image.thum.io/get/width/400/crop/1200/https://muni-muni.se/"/></a></div>
+      <div class="portfolioBox"><a href="http://antonpetersson.wieg17.se/julkalender/" target="_blank"><img class="portfolioImg" src="//image.thum.io/get/width/400/crop/1200/http://antonpetersson.wieg17.se/julkalender/"/></a></div>
+      <div class="portfolioBox"><a href="http://antonpetersson.wieg17.se/techstore/" target="_blank"><img class="portfolioImg" src="//image.thum.io/get/width/400/crop/1200/http://antonpetersson.wieg17.se/techstore/"/></a></div>
+      <div class="portfolioBox"><a href="http://antonpetersson.wieg17.se/storskogen/"target="_blank"><img class="portfolioImg" src="//image.thum.io/get/width/400/crop/1200/http://antonpetersson.wieg17.se/storskogen/"/></a></div>
+      <div class="portfolioBox"></div>
+      <div class="portfolioBox"></div>
+      <div class="portfolioBox"></div>
+      <div class="portfolioBox"></div>
+   </div>
+  </div>
+
+  <div id="footer">
+    <h2>Contact</h2>
+    <div class=footerContainer>
+      
+      <div class=footerL>
+        <div><p style="font-weight:400">Phone: </br> Mail: </p></div>
+        <div><p>+46 706 99 08 25 </br> anton.petersson@live.se</p></div>
+      </div>
+
+      <div class="footerR">
+        
+        <a href="https://www.linkedin.com/in/anton-petersson-a42776150/" target="_blank"><i class="fab fa-linkedin fa-6x"></i></a>
+        <a href="https://github.com/antonpetersson" target="_blank"><i class="fab fa-github-square fa-6x"></i></a>
+      </div>
+    </div>
+  </div>
   
 
     <script src="./script.js"></script>

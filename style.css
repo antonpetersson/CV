@@ -13,6 +13,14 @@ h1{
     font-size: 50px;
     display: inline
 }
+h2{
+    font-family: 'Raleway', sans-serif;
+    font-weight:100;
+    margin: 0px;
+    margin-left: 2vw;
+    font-size: 50px;
+    color: #f7e400;
+}
 p{
     font-family: 'Raleway', sans-serif;
     font-weight: 100;
@@ -31,98 +39,147 @@ a:hover{
     text-decoration: none;
     color: #f7e400;
 }
+
 #header{
-    height: 50px;
-    
+    height: 165px;   
+    padding-left: 2vw;
 }
+    #menu{
+        padding-top: 2vw;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 30px;
+        width: 190px;
+        display: flex;
+        flex-flow: column nowrap;
+        justify-content: space-around;
+        line-height: 180%;    
+    }
+        #homeLink{
+            font-size: 61.2px;
+            margin-left: -6.9px;
+            margin-bottom: -2.3px;
+        }
+        #aboutLink{
+            font-size: 51.9px;
+            margin-top: -6px;
+            margin-bottom: -6px;
+            
+        }
+        #portfolioLink{
+            margin-top: -14px;
+            font-size: 32.3px;
+            margin-left: -3.5px;
+        }
+        .menuHR{
+            width: 190px;
+            height: 3.5px;
+            background-color: #f7e400;
+            margin: 2px 0px;
+            border: 0px;
+        }
+
 #firstPage{
     margin: 0px;
     height: 100vh;
-    background-image: url("bg1.jpg");
+    background-image: url("bg1stol.jpg");
     background-size: cover;
 }
-#secondPage{
-    height: 100vh;
+    .title{
+        max-width: 360px;
+        margin-left: -500px;
+        margin-top: 50vh;
+    }
+
+#aboutPage{
+    height: 1000px;
+    background-image: url("bg2.jpg");
+    background-size: cover;
     background-color: #0f0f0f;
     width: 100vw;
-    border-top: solid;
-    border-color: #f7e400;
-    color: #f7e400;
-    display: flex;
-    flex-flow: column nowrap;
-    justify-content: space-evenly;
+    border-top: solid #f7e400; 
+}
+    .aboutContainer{
+        margin-top: 10vh;
+        display: flex;
+        flex-flow: column nowrap;
+        justify-content: space-evenly;
+    }
+        .infoBox{
+            background-color: rgba(0, 0, 0, 0.3); 
+            color: #D7D9E2;
+            padding-left: 5px;
+            border: solid #f7e400;
+        }
+        .boxL{
+            margin-left: -50vw;
+            max-width: 500px;
+            align-self: flex-start;
+            border-left: none;
+        }
+        .boxR{
+            margin-right: -50vw;
+            max-width: 360px;
+            border-right: none;
+            align-self: flex-end;
+        }
+
+#portfolioPage{
+    height: 1000px;
+    background-image: url("bg3.jpg");
+    background-size: cover;
+    background-color: #0f0f0f;
+    width: 100vw;
+    border-top: solid #f7e400;
     
 }
-#thirdPage{
-    height: 100vh;
+    .portfolioContainer{
+        margin: 2vw;
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-between;
+        align-content: space-around;
+    }
+    .portfolioBox{
+        border-style: solid;
+        height: 20vw;
+        width: 20vw;
+        margin: 10px;
+        background-color: rgba(0, 0, 0, 0.3); 
+ 
+    }
+    .portfolioBox img{
+        height: 20vw;
+        width: 20vw;
+    }
+#footer{
     background-color: #0f0f0f;
-    width: 100vw;
-    border-top: solid;
-    border-color: #f7e400;
-    color: #f7e400;
-}
-#menu{
-    padding: 15px;
-    font-family: 'Montserrat', sans-serif;
-    font-size: 30px;
-    width: 190px;
-    display: flex;
-    flex-flow: column nowrap;
-    justify-content: space-around;
-    line-height: 180%;    
-}
-.infoBox{
-    border-color: #f7e400;
+    border-top: solid #f7e400;
+    height: 300px;
     color: #D7D9E2;
-    padding-left: 5px;
-    border-style: solid;
 }
-.boxL{
-    margin-left: -50vw;
-    max-width: 500px;
-    align-self: flex-start;
-    border-left: none;
+.footerContainer{
+    margin: 2vw;
+    width: 96vw;
+    display: flex;
+    justify-content: space-between;
+    
 }
-.boxR{
-    margin-right: -50vw;
-    max-width: 360px;
-    border-right: none;
+.footerL{
+    width: 30vw;
+    display: flex;
+    justify-content: space-between;
+}
+.footerR{
+    color: #f7e400;
     align-self: flex-end;
 }
 
-.title{
-    max-width: 360px;
-    margin-left: -500px;
-    margin-top: 45vh;
-}
 
 
-#home{
-    font-size: 61.2px;
-    margin-left: -6.9px;
-    margin-bottom: -2.3px;
-}
-#about{
-    font-size: 51.9px;
-    margin-top: -6px;
-    margin-bottom: -6px;
-    
-}
-#portfolio{
-    margin-top: -14px;
-    font-size: 32.3px;
-    margin-left: -3.5px;
-}
-.menuHR{
-    width: 190px;
-    height: 3.5px;
-    background-color: #f7e400;
-    margin: 2px 0px;
-    border: 0px;
-}
-.menuHR:hover{
-    color: blue;
-}
+
+
+
+
 
 
 
@@ -140,26 +197,19 @@ a:hover{
         }
         h1{ 
             font-size: 10vw;
+        }h2{
+            font-size: 10vw;
         }p{
             font-size: 6vw;
-        }
-        .title{
+        }.title{
             max-width: 85vw;
             height: 54vw;
-            background-color: rgba(0, 0, 0, 0.3);
-            
-        }
-        .boxL{
+            background-color: rgba(0, 0, 0, 0.3); 
+        }.boxL{
             max-width: 85vw;
-            
-            
-        }
-        .boxR{ 
+        }.boxR{ 
             max-width: 85vw;
-            
-            
-        }
-        #secondPage{
+        }#secondPage{
             height: 150vh;            
         }
 
